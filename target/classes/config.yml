@@ -1,0 +1,28 @@
+settings:
+  warmup: 3
+  cooldown: 5
+  teleport-on-first-join: false
+  teleport-on-death: true
+  sound-enabled: true
+  particles-enabled: true
+  cancel-on-move: true
+  disabled-worlds: []
+
+messages:
+  prefix: "&8[&6SpawnPlugin&8] "
+  spawn-set: "&aSpawn location has been set!"
+  spawn-deleted: "&cSpawn location has been deleted."
+  teleporting: "&eTeleporting to spawn in &6%seconds% &eseconds... &7Don't move!"
+  teleported: "&aYou have been teleported to spawn!"
+  teleport-cancelled: "&cTeleport cancelled! You moved."
+  cooldown: "&cYou must wait &6%seconds% &cseconds before using /spawn again."
+  no-spawn-set: "&cNo spawn has been set for this world."
+  no-permission: "&cYou don't have permission to use this command."
+  config-reloaded: "&aConfiguration reloaded."
+  world-not-found: "&cWorld not found: &6%world%"
+  player-only: "&cThis command can only be used by players."
+  invalid-usage-setspawn: "&cUsage: /setspawn"
+  invalid-usage-delspawn: "&cUsage: /delspawn"
+  invalid-usage-spawn: "&cUsage: /spawn [world]"
+  invalid-usage-admin: "&cUsage: /spawnplugin reload"
+  disabled-world: "&c/spawn is disabled in this world."

@@ -1,0 +1,9 @@
+com\spawnplugin\managers\ConfigManager.class
+com\spawnplugin\managers\SpawnManager.class
+com\spawnplugin\commands\DelSpawnCommand.class
+com\spawnplugin\commands\SpawnAdminCommand.class
+com\spawnplugin\commands\SetSpawnCommand.class
+com\spawnplugin\commands\SpawnCommand.class
+com\spawnplugin\SpawnPlugin.class
+com\spawnplugin\managers\SpawnManager$1.class
+com\spawnplugin\listeners\PlayerListener.class

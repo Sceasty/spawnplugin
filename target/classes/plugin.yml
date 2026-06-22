@@ -1,0 +1,45 @@
+name: SpawnPlugin
+version: 1.0.0
+main: com.spawnplugin.SpawnPlugin
+api-version: '1.21'
+author: sceasty
+description: Advanced spawn management plugin
+
+commands:
+  spawn:
+    description: Teleport to spawn
+    usage: /<command> [world]
+    permission: spawnplugin.spawn
+  setspawn:
+    description: Set the spawn location
+    usage: /<command>
+    permission: spawnplugin.setspawn
+  delspawn:
+    description: Delete the spawn location
+    usage: /<command>
+    permission: spawnplugin.setspawn
+  spawnplugin:
+    description: Admin commands for SpawnPlugin
+    usage: /<command> reload
+    permission: spawnplugin.admin
+    aliases: [sp]
+
+permissions:
+  spawnplugin.spawn:
+    description: Allows using /spawn
+    default: true
+  spawnplugin.setspawn:
+    description: Allows setting spawn
+    default: op
+  spawnplugin.admin:
+    description: Allows admin commands
+    default: op
+  spawnplugin.bypass.cooldown:
+    description: Bypasses teleport cooldown
+    default: op
+  spawnplugin.bypass.warmup:
+    description: Bypasses teleport warmup
+    default: op
+  spawnplugin.bypass.disabled-world:
+    description: Bypass disabled world restriction
+    default: op
